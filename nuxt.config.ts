@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': {
-      prerender: true,
+      redirect: 'https://one.one.one.one',
     },
     '/dashboard/**': {
       ssr: false,
